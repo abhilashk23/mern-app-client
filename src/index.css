@@ -1,0 +1,87 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+@font-face {
+  font-family: 'GilroyBlack';
+  src: local('GilroyBlack'),
+    url('./fonts/Gilroy/Gilroy-Black.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'GilroyBold';
+  src: local('GilroyBold'),
+    url('./fonts/Gilroy/Gilroy-Bold.ttf') format('truetype');
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'GilroyHeavy';
+  src: local('GilroyHeavy'),
+    url('./fonts/Gilroy/Gilroy-Heavy.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'GilroyLight';
+  src: local('GilroyLight'),
+    url('./fonts/Gilroy/Gilroy-Light.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'GilroyRegular';
+  src: local('GilroyRegular'),
+    url('./fonts/Gilroy/Gilroy-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'GilroyRegularItalic';
+  src: local('GilroyRegularItalic'),
+    url('./fonts/Gilroy/Gilroy-RegularItalic.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'GilroySemiBold';
+  src: local('GilroySemiBold'),
+    url('./fonts/Gilroy/Gilroy-SemiBold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'GilroyThin';
+  src: local('GilroyThin'),
+    url('./fonts/Gilroy/Gilroy-Thin.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'GilroyThinItalic';
+  src: local('GilroyThinItalic'),
+    url('./fonts/Gilroy/Gilroy-ThinItalic.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'MarquisSansRegular';
+  src: local('MarquisSansRegular'),
+    url('./fonts/Marquis/MarquisSans-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'MarquisSansBold';
+  src: local('MarquisSansBold'),
+    url('./fonts/Marquis/MarquisSans-Bold.ttf') format('truetype');
+}
